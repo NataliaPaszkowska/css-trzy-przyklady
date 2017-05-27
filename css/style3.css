@@ -57,7 +57,9 @@ li:first-child {
     font-size: 2em;
 }
 
-
+li:last-child {
+    font-size: 2em;
+}
 
 
 
