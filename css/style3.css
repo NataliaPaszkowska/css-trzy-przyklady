@@ -8,8 +8,21 @@ p {
 /* pseudo selektory */
 /* ctrl shif / */
 
-#par1::before {
+#par1::before, #par1::after {
     content: '*';
     color: #fff;
-    font-size: 4px;
+    font-size: 3em;
 }
+
+#par2::first-line {
+    color: yellow;
+}
+
+#par2::first-letter {
+    color: darkblue;
+    font-size: 3em;
+}
+
+#par1::first-letter {
+    color: darkblue;
+    font-size: 10em;}
