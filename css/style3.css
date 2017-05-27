@@ -1,3 +1,15 @@
 * {
     background-color: rebeccapurple
 }
+
+p {
+    background-color: hotpink
+}
+/* pseudo selektory */
+/* ctrl shif / */
+
+#par1::before {
+    content: '*';
+    color: #fff;
+    font-size: 4px;
+}
