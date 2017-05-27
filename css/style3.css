@@ -1,5 +1,5 @@
 * {
-    background-color: rebeccapurple
+    background-color: darkgray;
 }
 
 p {
@@ -26,3 +26,42 @@ p {
 #par1::first-letter {
     color: darkblue;
     font-size: 10em;}
+
+/* pseudo klasy */
+
+a:visited {
+    color: red;
+    
+}
+a:hover {
+    color: green;
+    font-size: 2em; 
+}
+a:active {
+    color: black;
+}
+
+input:focus {
+    background-color: red;
+}
+
+p:target {
+    background-color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
