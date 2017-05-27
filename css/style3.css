@@ -49,9 +49,13 @@ p:target {
     background-color: cyan;
 }
 
+p:lang(pl) {
+    background-color: white;
+}
 
-
-
+li:first-child {
+    font-size: 2em;
+}
 
 
 
