@@ -61,10 +61,15 @@ li:last-child {
     font-size: 2em;
 }
 
+p span:only-child {
+    text-decoration: line-through;
+}
 
-
-
-
+div:empty { 
+width: 600px;
+height: 200px;
+background-color: blue;
+}
 
 
 
