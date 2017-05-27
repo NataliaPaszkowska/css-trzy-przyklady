@@ -79,7 +79,38 @@ li:nth-child(4) {
     background-color: deeppink;
 }
 
-li:nth-child(2n+3) {
+li:nth-child(2n+3):hover {
     background-color: darkorange;
 }
+/* selektory atrybutow */
+
+input[title] {
+    background-color: aqua;
+}
+
+input[type="text"] {
+    background-color: mediumvioletred;
+}
+
+input[title="Tytuł"] {
+    background-color: grey;
+}
+
+input[title~="inny"] {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
