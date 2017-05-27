@@ -100,6 +100,9 @@ input[title~="inny"] {
     background-color: blueviolet;
 }
 
+input[title*="Tyt"] {
+    background-color: darkgreen;
+}
 
 
 
