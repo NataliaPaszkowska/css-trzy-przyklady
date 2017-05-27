@@ -104,12 +104,13 @@ input[title*="Tyt"] {
     background-color: darkgreen;
 }
 
+input[title^="Tyt"] {
+    background-color: yellow;
+}
 
-
-
-
-
-
+input[title$="bla"] {
+    background-color: red
+}
 
 
 
