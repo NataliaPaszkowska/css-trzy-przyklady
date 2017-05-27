@@ -1,6 +1,6 @@
-* {
+/** {
     background-color: darkgray;
-}
+}*/
 
 p {
     background-color: hotpink
@@ -71,8 +71,15 @@ height: 200px;
 background-color: blue;
 }
 
+li:nth-child(odd) {
+    background-color: purple;
+}
 
+li:nth-child(4) {
+    background-color: deeppink;
+}
 
-
-
+li:nth-child(2n+3) {
+    background-color: darkorange;
+}
 
